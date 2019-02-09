@@ -10,3 +10,4 @@
 * [Dan Abramov](https://twitter.com/dan_abramov) and the [create-react-app](https://github.com/facebookincubator/create-react-app) project to quickly bootstrap React development.
 * [Joe Martellaj](http://martellaj.github.io/) for getting this off the ground and "running"! ;)
 
+#### Maintained by [CoachView](https://www.coachview.io)
