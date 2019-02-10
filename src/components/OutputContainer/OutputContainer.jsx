@@ -64,9 +64,7 @@ export default class OutputContainer extends Component {
             }
         }
 
-        markdown +=
-            '*This post was generated using [the new race reportr](https://martellaj.github.io/race-reportr/), a tool built by [/u/BBQLays](https://www.reddit.com/u/bbqlays) for making organized, easy-to-read, and beautiful race reports.*';
-
+        markdown += '*This post was generated using [the new race-reportr](https://coachview.github.io/race-reportr/), powered by [coachview](https://www.coachview.io), for making organized, easy-to-read, and beautiful race reports.*';
         return markdown;
     }
 
@@ -237,7 +235,7 @@ export default class OutputContainer extends Component {
     }
 
     onDonateClick() {
-        window.open('https://www.paypal.me/martellaj/5', '_blank');
+        return;
     }
 
     render() {
@@ -250,12 +248,6 @@ export default class OutputContainer extends Component {
                             onClick={this.onCopyClick}
                             children={this.state.copyButtonText}
                         />
-                        <button
-                            className="action-button"
-                            onClick={this.onDonateClick}
-                        >
-                            donate
-                        </button>
                     </div>
                     <span className="giveMeMoneyText">
                         As of May 9, 2018, race reportr has generated over 2,000

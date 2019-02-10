@@ -223,7 +223,7 @@ export default class App extends Component {
                     <div className="links">
                         <span className="label">
                             <a
-                                href="https://www.reddit.com/message/compose?to=BBQLays&subject=race%20reportr%20bug"
+                                href="https://www.reddit.com/message/compose?to=coachview&subject=race%20reportr%20bug"
                                 target="_blank"
                             >
                                 report a bug
@@ -232,7 +232,7 @@ export default class App extends Component {
                         <span> | </span>
                         <span className="label">
                             <a
-                                href="https://www.reddit.com/message/compose?to=BBQLays&subject=race%20reportr%20feature"
+                                href="https://www.reddit.com/message/compose?to=coachview&subject=race%20reportr%20feature"
                                 target="_blank"
                             >
                                 request a feature
@@ -241,10 +241,19 @@ export default class App extends Component {
                         <span> | </span>
                         <span className="label">
                             <a
-                                href="https://github.com/martellaj/race-reportr"
+                                href="https://github.com/coachview/race-reportr"
                                 target="_blank"
                             >
                                 source on github
+                            </a>
+                        </span>
+                        <span> | </span>
+                        <span className="label">
+                            <a
+                                href="https://www.coachview.io"
+                                target="_blank"
+                            >
+                                maintained by coachview
                             </a>
                         </span>
                     </div>
