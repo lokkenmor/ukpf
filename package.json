@@ -1,14 +1,16 @@
 {
   "name": "race-reportr-v2",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "private": true,
   "homepage": "https://coachview.github.io/race-reportr",
   "devDependencies": {
+    "eslint": "^5.16.0",
     "gh-pages": "^0.12.0",
     "react-scripts": "0.8.4"
   },
   "dependencies": {
     "classnames": "^2.2.5",
+    "eslint-plugin-react": "^7.12.4",
     "re-base": "^2.5.2",
     "react": "^15.4.1",
     "react-dom": "^15.4.1",
@@ -20,6 +22,7 @@
     "start": "PORT=3001 react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
+    "lint": "react-scripts lint",
     "eject": "react-scripts eject",
     "deploy": "npm run build && gh-pages -d build",
     "parse-data": "node ./src/data/parse.js"
