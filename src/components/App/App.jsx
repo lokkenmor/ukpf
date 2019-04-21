@@ -256,6 +256,10 @@ export default class App extends Component {
                                 maintained by coachview
                             </a>
                         </span>
+                        <span> | </span>
+                        <span className="label">
+                          new updates coming soon!
+                        </span>
                     </div>
                 </div>
                 <div className="app">
