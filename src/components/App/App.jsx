@@ -232,16 +232,7 @@ export default class App extends Component {
                         <span> | </span>
                         <span className="label">
                             <a
-                                href="https://www.reddit.com/message/compose?to=coachview&subject=race%20reportr%20feature"
-                                target="_blank"
-                            >
-                                request a feature
-                            </a>
-                        </span>
-                        <span> | </span>
-                        <span className="label">
-                            <a
-                                href="https://github.com/coachview/race-reportr"
+                                href="https://github.com/lokkenmor/ukpf"
                                 target="_blank"
                             >
                                 source on github
@@ -249,12 +240,7 @@ export default class App extends Component {
                         </span>
                         <span> | </span>
                         <span className="label">
-                            <a
-                                href="https://www.coachview.io"
-                                target="_blank"
-                            >
-                                maintained by coachview
-                            </a>
+                                a fork of github.com/coachview/race-reportr
                         </span>
                         <span> | </span>
                         <span className="label">
