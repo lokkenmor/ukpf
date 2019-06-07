@@ -248,16 +248,15 @@ export default class OutputContainer extends Component {
                             onClick={this.onCopyClick}
                             children={this.state.copyButtonText}
                         />
+			<!--
                         <a className="bmc-button" target="_blank" href="https://www.buymeacoffee.com/wpEJmo43k">
                             <img src="https://www.buymeacoffee.com/assets/img/BMC-btn-logo.svg" alt="Buy me a coffee" />
                             <span className="bmc-button-span">Buy me a coffee</span>
                         </a>
+			-->
                     </div>
                     <span className="coffeeText">
-                        As of May 9, 2018, race reportr has generated over 2,000
-                        race reports for reddit. If you think it provides value
-                        to your subreddit, please consider buying me a cup of
-                        coffee.
+			This tool is currently under development and is a work-in-progress. Give it a second.
                     </span>
                 </div>
 
